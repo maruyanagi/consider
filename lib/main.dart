@@ -78,7 +78,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('文法問題'),
+        title: Text('問題'),
       ),
       body: Center(
         child: _questionIndex < _questions.length ? Column(
